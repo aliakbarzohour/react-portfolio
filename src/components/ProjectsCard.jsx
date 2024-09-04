@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 function ProjectsCard({ title, description, img }) {
   return (
     <>
-      <Col sm={6} md={4}>
+      <Col sm={4} md={6}>
         <div className="project-image-box">
           <img src={img} alt="project" />
           <div className="text">
