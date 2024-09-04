@@ -89,7 +89,7 @@ function NavBar() {
               <button
                 className="vvd"
                 onClick={() => {
-                  console.log("is Clicked .");
+                  window.open("https://www.linkedin.com/in/mdaburayhann/", "_blank");
                 }}
               >
                 Let's Connect
