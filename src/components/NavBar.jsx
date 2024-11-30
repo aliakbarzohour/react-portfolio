@@ -34,7 +34,7 @@ function NavBar() {
     <>
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="#home">Logo</Navbar.Brand>
+          <Navbar.Brand href="#home">MD Abu Rayhan</Navbar.Brand>
           <Navbar.Toggle className="border-light text-light" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -71,22 +71,25 @@ function NavBar() {
             <span className="navbar-text">
               <span className="social-icons">
                 {/* Github */}
-                <a href="https://github.com/aliakbarzohour">
+                <a href="https://github.com/AbuRayhan71">
                   <i class="bi bi-github"></i>
                 </a>
                 {/* LinkedIn */}
-                <a href="https://linkedin.com/in/aliakbarzohour">
+                <a href="https://www.linkedin.com/in/md-abu-rayhan-854b3b1a9/">
                   <i class="bi bi-linkedin"></i>
                 </a>
                 {/* Instagram */}
-                <a href="https://instagram.com/ali.akbarzohour">
+                <a href="https://www.instagram.com/_____rayhan_______/">
                   <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/@mdaburayhan9101">
+                  <i class="bi bi-youtube"></i>
                 </a>
               </span>
               <button
                 className="vvd"
                 onClick={() => {
-                  console.log("is Clicked .");
+                  window.open("https://www.linkedin.com/in/mdaburayhann/", "_blank");
                 }}
               >
                 Let's Connect

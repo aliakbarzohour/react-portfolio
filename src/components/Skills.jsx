@@ -17,7 +17,6 @@ function Skills() {
   // Carousel Responsive Settings
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -34,63 +33,46 @@ function Skills() {
       items: 1,
     },
   };
-  // Return JSX
+
   return (
-    // React Fragment
     <>
-      {/* Skils Section */}
       <section id="skills" className="skills">
-        {/* Bootstrap Grid System */}
-        {/* Container */}
         <Container>
-          {/* Row */}
           <Row>
-            {/* Col */}
             <Col>
-              {/* Skills Box */}
               <div className="skills-box">
-                {/* Skills Title */}
                 <h2>Skills</h2>
-                {/* Skills Description */}
                 <p>
-                  I have a passion for learning new things and I am always
-                  looking for new ways to improve my skills. <br /> I have a
-                  strong background in web development and I am always looking
-                  to learn new things and improve my skills.
+                  As a Software Engineer focused on AI, I continually push the boundaries of what's possible with technology. I have a solid foundation in software development, with specialized skills in AI, machine learning, and cloud computing. My goal is to create innovative, scalable solutions that leverage AI to solve real-world problems.
                 </p>
-                {/* Skills Carousel */}
                 <Carousel
                   responsive={responsive}
                   infinite={true}
                   className="skills-slider"
                 >
-                  {/* Skills Slider Item */}
+
                   <div className="item">
-                    <img src={meter1} alt="" />
-                    <h5>Web Development</h5>
-                  </div>
-                  {/* Skills Slider Item */}
-                  <div className="item">
-                    <img src={meter2} alt="" />
-                    <h5>DevOps</h5>
-                  </div>
-                  {/* Skills Slider Item */}
-                  <div className="item">
-                    <img src={meter3} alt="" />
+                    <img src={meter1} alt="FullStack Development" />
                     <h5>FullStack Development</h5>
                   </div>
-                  {/* Skills Slider Item */}
                   <div className="item">
-                    <img src={meter1} alt="" />
-                    <h5>Front-End Teacher</h5>
+                    <img src={meter3} alt="Cloud Computing" />
+                    <h5>Cloud Computing</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="AI Development" />
+                    <h5>AI Development</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Machine Learning" />
+                    <h5>Machine Learning</h5>
                   </div>
                 </Carousel>
               </div>
             </Col>
           </Row>
         </Container>
-        {/* Background Image */}
-        <img src={colorSharp} className="background-image-left" />
+        <img src={colorSharp} className="background-image-left" alt="background" />
       </section>
     </>
   );
